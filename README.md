@@ -3,11 +3,11 @@ Submission for the Full stack AI assignment for AI planet! A chatbot that let's 
 This is an end to end LLM project that uses Langchain and Streamlit to host LLM model to allow you to chat with your documents or with a Github repository!
 
 We will build an LLM based question and answer system that will use following,
-  Orca Mini 3b model, or any other model
-  Hugging face embeddings
-  Streamlit for UI
-  Langchain framework
-  Chromadb as a vector store
+  * Orca Mini 3b model, or any other model
+  * Hugging face embeddings
+  * Streamlit for UI
+  * Langchain framework
+  * Chromadb as a vector store
 
 ## Setup
 1.Clone this repository to your local machine using:
