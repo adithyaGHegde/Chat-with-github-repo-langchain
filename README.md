@@ -32,4 +32,4 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application is now running!
+The application will now be running on your browser. In the sidebar add documents/repo link and click on Process. Wait until its done, and then you can chat with the bot!
