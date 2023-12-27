@@ -9,3 +9,4 @@ langchain-google-genai==0.0.5
 langchainhub==0.1.14
 sentence-transformers==2.2.2
 transformers==4.36.2
+pysqlite3-binary
