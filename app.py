@@ -60,12 +60,12 @@ def get_conversation_chain(vectorstore):
 
 
     st.write("Creating conversation chain...")
-    llm = CTransformers(model='models/orca-mini-3b.ggmlv3.q4_0.bin', # Path to your model location
-                    model_type='llama', 
-                    config={'max_new_tokens': 1024,
-                            'temperature': 0.01,
-                            'context_length': 4000})
-    # llm = HuggingFaceHub(repo_id="google/flan-t5-xxl",model_kwargs={'temperature':0.8,'max-length':512})
+    # llm = CTransformers(model='models/orca-mini-3b.ggmlv3.q4_0.bin', # Path to your model location
+    #                 model_type='llama', 
+    #                 config={'max_new_tokens': 1024,
+    #                         'temperature': 0.01,
+    #                         'context_length': 4000})
+    llm = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-alpha",model_kwargs={'temperature':0.1,'max-length':512})
     # llm = ChatGoogleGenerativeAI(model="gemini-pro",convert_system_message_to_human=True)
     
     # model_name = "Intel/dynamic_tinybert"
