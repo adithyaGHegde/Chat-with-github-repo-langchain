@@ -70,7 +70,7 @@ def get_conversation_chain(vectorstore):
     #                 config={'max_new_tokens': 1024,
     #                         'temperature': 0.01,
     #                         'context_length': 4000})
-    llm = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-alpha",model_kwargs={'temperature':0.1,'max-length':512})
+    llm = HuggingFaceHub(repo_id="HuggingFaceH4/zephyr-7b-alpha",model_kwargs={'temperature':0.1,'max-length':1024})
     # llm = ChatGoogleGenerativeAI(model="gemini-pro",convert_system_message_to_human=True)
     
     # model_name = "Intel/dynamic_tinybert"
